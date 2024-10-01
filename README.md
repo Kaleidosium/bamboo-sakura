@@ -42,7 +42,7 @@ Bamboo Sakura provides the following CSS variables for theming:
   --b-txt: #4a4a4a;
   --b-bg-1: #f9f9f9;
   --b-bg-2: #f1f1f1;
-  --b-btn-bg: #242933;
+  --b-btn-bg: #4a4a4a;
   --b-btn-txt: #fff;
   --b-focus: #d8dee9;
 }
