@@ -109,8 +109,9 @@ strong {
 blockquote {
 	margin-left: 0;
 	margin-trim: block;
-	padding: .5rem 0 .5rem 1.5rem;
-	border-left: .25rem solid var(--b-txt);
+	padding: 1rem 0 1rem 1.5rem;
+	background-color: var(--b-bg-2);
+	border-left: .25rem solid var(--b-blossom);
 }
 small {
 	font-size: .875rem;
