@@ -21,8 +21,11 @@
 	"homepage": "https://github.com/kaleidosium/bamboo-sakura",
 	"scripts": {
 		"dark": "sass --no-source-map --style compressed src/dark.scss dist/dark.min.css",
+		"dark-solarized": "sass --no-source-map --style compressed src/dark-solarized.scss dist/dark-solarized.min.css",
+		"vader": "sass --no-source-map --style compressed src/vader.scss dist/vader.min.css",
 		"light": "sass --no-source-map --style compressed src/light.scss dist/light.min.css",
-		"start": "npm run dark && npm run light"
+		"earthly": "sass --no-source-map --style compressed src/earthly.scss dist/earthly.min.css",
+		"start": "npm run dark && npm run dark-solarized && npm run vader && npm run light && npm run earthly"
 	},
 	"devDependencies": {
 		"sass": "^1.72.0"

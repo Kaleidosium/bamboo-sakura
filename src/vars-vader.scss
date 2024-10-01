@@ -3,13 +3,13 @@
 	--b-font-heading: var(--b-font-main);
 	--b-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
-	--b-blossom: #1d7484;
-	--b-fade: #982c61;
+	--b-blossom: lighten(#DA4453, 20%);
+	--b-fade: #DA4453;
 
-	--b-txt: #4a4a4a;
-	--b-bg-1: #f9f9f9;
-	--b-bg-2: #f1f1f1;
-	--b-btn-bg: #4a4a4a;
+	--b-txt: #d9d8dc;
+	--b-bg-1: #120c0e;
+	--b-bg-2: #40363a;
+	--b-btn-bg: #40363a;
 	--b-btn-txt: #fff;
-	--b-focus: #d8dee9;
+	--b-focus: #88c0d0;
 }
