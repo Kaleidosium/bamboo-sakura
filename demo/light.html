@@ -191,7 +191,19 @@
 		</p>
 	</form>
 
-	<img src="https://placekitten.com/1200/600" alt="cat">
+	<script>
+		const apiUrl = "https://randomfox.ca/floof/";
+
+		fetch(apiUrl)
+			.then(response => response.json())
+			.then(data => {
+				const foxImage = document.createElement("img");
+				foxImage.src = data.image;
+				foxImage.alt = "Image of a Fox";
+				document.body.appendChild(foxImage);
+			})
+			.catch(error => console.error(error));
+	</script>
 </body>
 
 </html>

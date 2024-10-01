@@ -11,11 +11,11 @@
 <body>
 	<h1>Bamboo Sakura CSS Demo</h1>
 	<p>Color scheme: <a href="./dark.html">Dark</a> | <a href="./light.html">Light</a> | <a
-		href="./dark-solarized.html">Dark-Solarized</a> | <a href="./vader.html">Vader</a> | <a
-		href="./earthly.html">Earthly</a></p>
+			href="./dark-solarized.html">Dark-Solarized</a> | <a href="./vader.html">Vader</a> | <a
+			href="./earthly.html">Earthly</a></p>
 
 
-		<hr>
+	<hr>
 
 	<h1>Heading 1</h1>
 	<p>This is paragraph text. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -191,7 +191,19 @@
 		</p>
 	</form>
 
-	<img src="https://placekitten.com/1200/600" alt="cat">
+	<script>
+		const apiUrl = "https://randomfox.ca/floof/";
+
+		fetch(apiUrl)
+			.then(response => response.json())
+			.then(data => {
+				const foxImage = document.createElement("img");
+				foxImage.src = data.image;
+				foxImage.alt = "Image of a Fox";
+				document.body.appendChild(foxImage);
+			})
+			.catch(error => console.error(error));
+	</script>
 </body>
 
 </html>
