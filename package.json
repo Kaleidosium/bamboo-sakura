@@ -1,11 +1,10 @@
 {
-	"name": "bamboo.css",
-	"version": "1.4.0",
-	"description": "A classless CSS library",
-	"main": "dist/bamboo.min.css",
+	"name": "bamboo-sakura.css",
+	"version": "1.0.0",
+	"description": "A classless CSS library. Forked from bamboo, Inspired by sakura",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/rilwis/bamboo.git"
+		"url": "git+https://github.com/kaleidosium/bamboo-sakura.git"
 	},
 	"keywords": [
 		"css",
@@ -14,17 +13,16 @@
 		"normalize",
 		"style"
 	],
-	"author": "Anh Tran <rilwis@gmail.com>",
+	"author": "Anh Tran <rilwis@gmail.com>, Dania Rifki <atomicnumberphi@gmail.com",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/rilwis/bamboo/issues"
+		"url": "https://github.com/kaleidosium/bamboo-sakura/issues"
 	},
-	"homepage": "https://github.com/rilwis/bamboo",
+	"homepage": "https://github.com/kaleidosium/bamboo-sakura",
 	"scripts": {
-		"main": "sass --no-source-map --style compressed src/main.scss dist/bamboo.min.css",
 		"dark": "sass --no-source-map --style compressed src/dark.scss dist/dark.min.css",
 		"light": "sass --no-source-map --style compressed src/light.scss dist/light.min.css",
-		"start": "npm run main && npm run dark && npm run light"
+		"start": "npm run dark && npm run light"
 	},
 	"devDependencies": {
 		"sass": "^1.72.0"

@@ -1,12 +1,14 @@
 :root {
-	--b-font-main: system-ui, sans-serif;
+	--b-font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+	--b-font-heading: var(--b-font-main);
 	--b-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
-	--b-txt: #eceff4;
-	--b-bg-1: #2e3440;
-	--b-bg-2: #3b4252;
-	--b-line: #3b4252;
-	--b-link: #bf616a;
+	--b-blossom: #ffffff;
+	--b-fade: #c9c9c9;
+
+	--b-txt: #c9c9c9;
+	--b-bg-1: #222222;
+	--b-bg-2: #4a4a4a;
 	--b-btn-bg: #242933;
 	--b-btn-txt: #fff;
 	--b-focus: #88c0d0;
