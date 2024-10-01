@@ -48,7 +48,7 @@ Bamboo Sakura provides the following CSS variables for theming:
 }
 ```
 
-All CSS variables are prefixed with `--b-` so it's safe to use Bamboo CSS with your existing websites.
+All CSS variables are prefixed with `--b-` so it's safe to use Bamboo Sakura with your existing websites.
 
 ## Credits
 
