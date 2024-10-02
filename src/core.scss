@@ -107,9 +107,10 @@ strong {
 	font-weight: 700;
 }
 blockquote {
+	word-break: break-word;
 	margin-left: 0;
 	margin-trim: block;
-	padding: 1rem 0 1rem 1.5rem;
+	padding: 1rem 1.25rem;
 	background-color: var(--b-bg-2);
 	border-left: .25rem solid var(--b-blossom);
 }
