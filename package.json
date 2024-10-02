@@ -1,6 +1,6 @@
 {
 	"name": "bamboo-sakura.css",
-	"version": "1.2.0",
+	"version": "1.2.2",
 	"description": "A classless CSS library. Forked from bamboo, Inspired by sakura",
 	"repository": {
 		"type": "git",
@@ -25,7 +25,7 @@
 		"vader": "sass --no-source-map --style compressed src/vader.scss dist/vader.min.css",
 		"light": "sass --no-source-map --style compressed src/light.scss dist/light.min.css",
 		"earthly": "sass --no-source-map --style compressed src/earthly.scss dist/earthly.min.css",
-		"start": "npm run dark && npm run dark-solarized && npm run vader && npm run light && npm run earthly"
+		"all": "npm run dark && npm run dark-solarized && npm run vader && npm run light && npm run earthly"
 	},
 	"devDependencies": {
 		"sass": "^1.72.0"
