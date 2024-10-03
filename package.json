@@ -25,7 +25,10 @@
 		"vader": "sass --no-source-map --style compressed src/vader.scss dist/vader.min.css",
 		"light": "sass --no-source-map --style compressed src/light.scss dist/light.min.css",
 		"earthly": "sass --no-source-map --style compressed src/earthly.scss dist/earthly.min.css",
-		"all": "npm run dark && npm run dark-solarized && npm run vader && npm run light && npm run earthly"
+		"ink": "sass --no-source-map --style compressed src/ink.scss dist/ink.min.css",
+		"pink": "sass --no-source-map --style compressed src/pink.scss dist/pink.min.css",
+		"radical": "sass --no-source-map --style compressed src/radical.scss dist/radical.min.css",
+		"all": "npm run dark && npm run dark-solarized && npm run vader && npm run light && npm run earthly && npm run ink && npm run pink && npm run radical"
 	},
 	"devDependencies": {
 		"sass": "^1.72.0"

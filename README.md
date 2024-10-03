@@ -4,6 +4,8 @@ A classless CSS library. Forked from [bamboo](https://github.com/rilwis/bamboo),
 
 [View demo](https://kaleidosium.github.io/bamboo-sakura/demo/light)
 
+🎋🌸
+
 ## Usage
 
 ### CDN
@@ -18,6 +20,42 @@ A classless CSS library. Forked from [bamboo](https://github.com/rilwis/bamboo),
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/bamboo-sakura.css/dist/light.min.css">
+```
+
+#### 🌑 Dark-Solarized Theme
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/bamboo-sakura.css/dist/dark-solarized.min.css">
+```
+
+#### 💖 Vader Theme
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/bamboo-sakura.css/dist/vader.min.css">
+```
+
+#### 🌱 Earthly Theme
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/bamboo-sakura.css/dist/earthly.min.css">
+```
+
+#### ✒️ Ink Theme
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/bamboo-sakura.css/dist/ink.min.css">
+```
+
+#### 💗 Pink Theme
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/bamboo-sakura.css/dist/pink.min.css">
+```
+
+#### 💾 Radical Theme
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/bamboo-sakura.css/dist/radical.min.css">
 ```
 
 ### NPM
