@@ -3,13 +3,13 @@
 	--b-font-heading: var(--b-font-main);
 	--b-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
-	--b-blossom: lighten(#DA4453, 20%);
+	--b-blossom: #e16975;
 	--b-fade: #DA4453;
 
 	--b-txt: #d9d8dc;
 	--b-bg-1: #120c0e;
 	--b-bg-2: #40363a;
-	--b-btn-bg: #40363a;
+	--b-btn-bg: var(--b-blossom);
 	--b-btn-txt: #fff;
 	--b-focus: #88c0d0;
 }
